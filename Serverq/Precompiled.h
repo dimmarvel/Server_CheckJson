@@ -1,0 +1,14 @@
+#pragma once
+#define _CRT_SECURE_NO_WARNINGS
+#include <boost/thread.hpp>
+#include <boost/bind.hpp>
+#include <boost/asio.hpp>
+#include <boost/shared_ptr.hpp>
+#include <boost/enable_shared_from_this.hpp>
+#include <boost/scoped_ptr.hpp>
+#include <boost/chrono.hpp>
+#include <boost/noncopyable.hpp>
+#include <boost/property_tree/ptree.hpp>
+#include <boost/property_tree/json_parser.hpp>
+#include <string>
+#include <iostream>
